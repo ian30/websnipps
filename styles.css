@@ -1,0 +1,25 @@
+.snippet-card {
+  overflow: scroll;
+  max-height: 400px;
+}
+
+.snippet-icons {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.snippet-card:hover .snippet-icons {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.snippet-icons i {
+  font-size: 1.2rem;
+}
+
+.fileredOut {
+  display: none;
+}
+#snippetCode {
+  background: none !important;
+}
